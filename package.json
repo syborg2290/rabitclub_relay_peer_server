@@ -1,0 +1,21 @@
+{
+  "name": "relay-peer-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "gun": "^0.2020.1235"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
